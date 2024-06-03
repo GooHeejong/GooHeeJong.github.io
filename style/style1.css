@@ -37,6 +37,7 @@ hteml{
     margin-top: 20vw;
 }
 
+
 .page4-wrap {
     width: 100%;
     display: flex;
@@ -62,7 +63,7 @@ hteml{
     grid-template-columns: repeat(2, 1fr)
 }
 
-.text-2-b, .text-2-w, .text-3-w, .text-3-b  {
+.text-2-b, .text-2-w, .text-3-w, .text-3-b, {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,7 +71,7 @@ hteml{
     align-items: center;
 }
 
-.text-2-b, .text-3-b {
+.text-2-b, .text-3-b, .page1-text1 {
     background-color: gainsboro;
     color: black;
 }
@@ -96,11 +97,50 @@ hteml{
 
 
 
-.img-2 img, .img-3 img{
+.img-2 img, .img-3 img, .page1-img1 img, .page1-img2 img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
+.page1-wrap {
+    display: grid;
+    height: 800px;
+    width:100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7,1fr);
+    grid-template-areas: 
+    "a b"
+    "a b"
+    "a b"
+    "c b"
+    "c d"
+    "c d"
+    "c d"
+}
+
+
+.page1-text1 {
+    grid-area: a;
+    text-align: center;
+
+}
+
+.page1-img1 {
+    grid-area: b;    
+}
+
+.page1-img2 {
+    grid-area: c;    
+}
+
+.page1-text2 {
+    grid-area: d;
+}
+
+
+
+
 
 
 
@@ -165,3 +205,5 @@ hteml{
 
 
 }
+
+

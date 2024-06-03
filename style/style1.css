@@ -63,7 +63,7 @@ hteml{
     grid-template-columns: repeat(2, 1fr)
 }
 
-.text-2-b, .text-2-w, .text-3-w, .text-3-b, {
+.text-2-b, .text-2-w, .text-3-w, .text-3-b {
     width: 100%;
     display: flex;
     flex-direction: column;
